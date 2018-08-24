@@ -187,7 +187,7 @@ phases:
       imageBuilderImage: ${{ parameters.imageBuilderLinuxImage }}
       manifest: ${{ parameters.manifest }}
       repo: ${{ parameters.repo }}
-      matrix: ${{ parameters.buildMatrixLinuxArm32 }}
+      matrix: ${{ parameters.buildMatrixLinuxAmd64 }}
   - template: build-linux-arm32v7.yml
     parameters:
       imageBuilderImage: ${{ parameters.imageBuilderLinuxImage }}
